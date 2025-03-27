@@ -1,0 +1,32 @@
+
+body
+    {
+
+        background-color:lightgrey;
+
+    }
+
+    header
+    {
+        background: linear-gradient(to right, #f74803e1, #de7926); 
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    section{
+        width:80vw;
+        background-color:white;
+
+    }
+    
+    footer{
+        color:white;
+        background-image: url("footer1.jpg");
+        background-size: cover;
+        height:50px;
+        width:100%;
+        text-shadow: 5px 5px 10px rgb(255, 248, 248);
+        
+    }
+   
+    
+
