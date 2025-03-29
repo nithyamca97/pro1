@@ -1,0 +1,15 @@
+a
+{
+
+ text-decoration: none;
+ letter-spacing: 2px;
+ font-family: "Josefin Sans", sans-serif;
+}
+*{
+    text-align: center;
+}
+header
+{
+    background-color: blue;
+    color:aliceblue;
+}

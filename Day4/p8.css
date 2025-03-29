@@ -1,0 +1,39 @@
+*
+{
+
+    text-align: center;
+    background: linear-gradient(to right, #5d0d75, #2208b5); 
+            color: white;
+}
+
+.about
+{
+    width: 50vw;
+
+}
+.skill
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50vw;
+    font-style: italic;
+
+}
+.contact
+{
+    width: 50vw;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+footer
+{
+    width: 50vw;
+
+
+}
+p{
+    text-align: left;
+}
+ul li
+{
+    list-style: none;
+}
