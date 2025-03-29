@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+        background-color: rgba(239, 169, 169, 0.5);
+
+}
+
+
+a:hover {
+    background-color: yellow;
+    font-size: 18px;
+}

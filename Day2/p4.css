@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+}
+   
+button{
+
+        color:white;
+        background-color: green;
+}
+header 
+{ 
+    background: linear-gradient(to right, #49bede, #c8c5c9); 
+    color: white; 
+}
+h1{
+    color:blue;
+}
+p{
+    color:black;
+}

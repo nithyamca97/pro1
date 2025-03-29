@@ -1,0 +1,37 @@
+section
+{
+    background-color: aqua;
+}
+header
+{
+        color: #dbdada; 
+            background: linear-gradient(to right, rgb(20, 20, 20), orange); 
+    
+}
+nav
+{
+    background-color:rgb(255, 0, 0); 
+}
+div
+{
+    background-color: rgba(231, 125, 125, 0.5); 
+}
+button { 
+    background-color: hsl(200, 100%, 50%); 
+}
+footer
+{
+        background: radial-gradient(circle, lightblue, darkblue); 
+    }
+ul li
+{
+        background-color: hsl(83, 74%, 45%); 
+}
+.second:hover
+{
+    background: conic-gradient(from 0deg, red, yellow, green, blue); 
+}
+h2{
+ 
+        color: #ff33a3; 
+}
