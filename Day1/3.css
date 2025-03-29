@@ -1,0 +1,13 @@
+th
+{
+    background-color: rgb(2, 2, 69);
+    color:white;
+}
+tr:nth-child(odd)
+{
+    background-color: gray;
+}
+.complete
+{
+    color: red;
+}

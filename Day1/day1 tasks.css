@@ -1,0 +1,60 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+      }
+h2
+{
+    font-size: 24;
+    color: blue;
+}
+.highlight
+{
+    background-color: yellow;
+}
+#cta
+{
+color: white;
+background-color: green;
+}
+h1,h2,h3
+{
+    font-style: bold;
+    color:brown;
+
+}
+div p{
+    color: aqua;
+}
+div>ul li
+{
+    font-size: 15px;
+    color:blueviolet;
+
+}
+h2+p
+{
+    color:orangered;
+    font-style: italic;
+}
+body:hover
+{
+    background-color:rosybrown;
+}
+tr:nth-child(odd)
+{
+    background-color: gray;
+}
+h2::before { 
+    content: "🌟 "; 
+    color: gold; 
+} 
+h3::after 
+{
+    content: "done"; 
+    color: gold; 
+}
+.fade
+{
+    background-color: aqua;
+}
