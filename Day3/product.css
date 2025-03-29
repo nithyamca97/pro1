@@ -1,0 +1,11 @@
+.card { 
+    font-size: 5vmin;
+    max-width: 300px;
+    text-align: center;
+}
+.price
+ {
+    font-size: 5vmax;
+color: grey;
+font-size: 22px;
+ }

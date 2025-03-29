@@ -1,0 +1,49 @@
+h1 { 
+    font-size: 20px; 
+} 
+p 
+{ 
+    margin: 2cm; 
+}
+section
+ { 
+    width: 80%; 
+    font-size: 20px;
+}
+p 
+{ 
+    font-size: 1.5em; 
+}
+h2 
+{ 
+    font-size: 2rem; 
+}
+div
+{
+        width: 50vw;   
+}
+footer
+{
+        height: 100vh; 
+    
+}
+div { 
+    font-size: 5vmin;
+
+}
+button
+{
+        font-size: 2rem; 
+     
+    } 
+
+    header { 
+        height: 50vh; 
+        background: linear-gradient(to right, #ff7e5f, #feb47b); 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        width: 100%; 
+    }
+    
+
