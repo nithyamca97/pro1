@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width:85%;
+            justify-content: center;
+            margin:20px;
+            height:80vh;
+        }
+        .gallery
+        {
+            display:flex;
+            gap:20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            
+           
+        }
+        .photo4
+        {
+            flex-grow: 1;
+        }
+        
+        img{
+            width:100%;
+            border-radius: 15px;
+           
+        }
+        
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <br>
+        <div class="gallery">
+            <div class="photo1">
+            <img src="1.jpg" alt="Photo1" height="200px">
+            </div>
+            <div class="photo2">
+            <img src="2.jpg" alt="Photo2"height="200px">
+            </div>
+            <div class="photo3">
+            <img src="3.jpg" alt="Photo3"height="200px">
+            </div>
+            <div class="photo4">
+            <img src="4.jpeg" alt="Photo4"height="200px">
+            </div>
+            <div class="photo5">
+                <img src="5.jpg" alt="Photo5"height="200px">
+                </div>
+                <div class="photo6">
+                    <img src="6.avif" alt="Photo5"height="200px">
+                    </div>
+                
+            
+
+        </div>
+       
+
+    </div>
+</body>
+</html>

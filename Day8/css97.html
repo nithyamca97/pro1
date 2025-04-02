@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            gap:10px;
+            margin:20px;
+            text-align: center;
+            gap:10px;
+            height:70vh;
+            
+        }
+        .flex-column
+        {
+            display:flex;
+            flex-wrap: nowrap;
+            border:2px solid red;
+            background-color: gray;
+            gap:10px;
+            justify-content: center;
+
+        }
+        .flex-row
+        {
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            border:2px solid red;
+            background-color: aqua;
+            gap:10px;
+            align-items:center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-column">
+            <div>Column item 1</div>
+            <div>Column item 2</div>
+            <div>Column item 3</div>
+          </div>
+          <div class="flex-row">
+            <div>Row item 1</div>
+            <div>Row item 2</div>
+            <div>Row item 3</div>
+            <div>Row item 4</div>
+            <div>Row item 5</div>
+          </div>
+    </div>
+    
+</body>
+</html>

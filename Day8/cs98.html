@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * 
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+
+        }
+        .container
+        {
+           display:flex;
+            background-color: rgb(12, 58, 49);
+            color:white;
+            gap:20px;
+            height:100px;
+            margin:20px;
+        }
+        .nav
+        {
+
+             display: flex;
+            width: 80%;
+            justify-content: flex-end;
+           
+        }
+       ul
+       {
+        display:flex;
+        gap:20px;
+       }
+
+       ul li{
+            list-style: none;
+            display:flex;
+            
+        }
+        a
+        {
+            
+            text-decoration: none;
+            color:white;
+            font-size: larger;
+            border:2px solid yellow;
+            height:25px;
+            background-color: aqua;
+            color:black;
+        }
+
+       
+       .contact
+       {
+        flex-grow: 2;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VTS Institute</h1>
+        <div class="nav">
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a class="contact"href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

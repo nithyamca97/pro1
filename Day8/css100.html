@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            width:500px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(242, 198, 88);
+        justify-content: center;
+        gap:5px;
+        
+        }
+        .container>div
+        {
+            flex-grow:1;
+            flex-shrink: 1;
+            flex-basis: 200px;
+            
+        }
+        div{
+            border:2px solid red;
+            text-align: center;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+      </div>
+</body>
+</html>
