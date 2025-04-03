@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        header
+        {
+    
+            background-color: black;
+            color:white;
+
+        }
+        .container
+        {
+            width:100%;
+            display:grid;
+            margin:auto;
+            grid-template-columns: 200px 900px;
+            grid-template-rows: 500px;
+            gap:10px;
+            
+        }
+        ul li{
+            list-style: none;
+           
+        
+           
+            
+        }
+        section{
+            height:80vh;
+            padding:20px;
+            margin-top:10px;
+            background-color: black;
+            color:white;
+        
+        }
+        .content
+        {
+            margin-top:30px;
+            
+        }
+        .content-item
+        {
+            display:grid;
+            grid-template-columns: 300px 300px 300px;
+            gap:50px;
+            margin-top:50px;
+            text-align: center;
+            
+        }
+        .content-item1,.content-item2,.content-item3
+        {
+            background-color: hsl(0, 15%, 94%);
+        
+        }
+        nav{
+            line-height: 40px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <div class="container">
+        <section>
+            <nav>
+                <ul>
+                 <li><i class="fa-solid fa-house"></i>Home</li>
+                    <li><i class="fa-solid fa-chart-simple"></i>Analytics</li>
+                    <li><i class="fa-solid fa-gear"></i>settings</li>
+                    <li><i class="fa-solid fa-right-from-bracket"></i>logout</li>
+                </ul>
+            </nav>
+        </section>
+        <div class="content">
+            <h3>Welcome to the dashboard</h3><br>
+            <p>This is a impressive dashboard layout using css grid</p>  
+       
+            <div class="content-item">
+            <div class="content-item1">
+                <p><i class="fa-solid fa-chart-line"></i>Sales Report</p>
+            </div>
+            <div class="content-item2">
+                <p><i class="fa-solid fa-chart-simple"></i>User Statistics</p>
+            </div>
+            <div class="content-item3">
+                <p><i class="fa-solid fa-money-bill"></i>Revenue</p></div>
+            </div>
+            
+        </div>
+      
+      </div>
+
+    
+</body>
+</html>

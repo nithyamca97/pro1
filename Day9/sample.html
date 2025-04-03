@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        header
+        {
+            background-color: black;
+            color:white;
+            text-align: center;
+        }
+        .container
+        {
+            width:90%;
+            height:80vh;
+            display:grid;
+            grid-template-columns:repeat(3,1fr) ;
+            grid-template-rows: 300px;
+            margin:20px;
+           align-content: center;
+            gap:20px;
+           
+        }
+        .container div{
+           
+            text-align:center;
+            
+        }
+        h3{
+            background-color:black;
+            color:white;
+            text-align: center;
+            margin-top:10px;
+        }
+        .footer
+        {
+            background-color: black;
+            color:white;
+            text-align: center;
+            height:10vh;
+        }
+        ul li{
+            margin:20px;
+            list-style: none;
+           
+        
+        }
+       button{
+        background-color:green;
+       
+        color:white;
+         border-radius:5px ;
+       }
+       .card1,.card2,.card3
+       {
+        background-color: lightgrey;
+        align-items: center;
+       }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pricing Plans </h1>
+    </header>
+    <div class="container">
+        <div class="card1"> 
+            <h3> Basic</h3> 
+            <p style ="color:green"><strong>₹999/month</strong></p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> 10GB storage</li>
+                <li><i class="fa-solid fa-check"></i>Email support</li>
+                <li><i class="fa-solid fa-xmark"></i>Custom Domain</li>
+            </ul>
+            <button>Choose Plan</button> 
+            </div> 
+            <div class="card2"> 
+                <h3> Standard</h3> 
+                <p style ="color:green"><strong>₹1999/month</strong></p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 50GB storage</li>
+                    <li><i class="fa-solid fa-check"></i>Priority support</li>
+                    <li><i class="fa-solid fa-check"></i>Custom Domain</li>
+                </ul>
+                <button>Choose Plan</button> 
+            </div> 
+        
+        <div class="card3"> 
+            <h3> Premium</h3> 
+            <p style ="color:green"><strong>₹2999/month</strong></p>
+            <ul>
+                <li> <i class="fa-solid fa-check"></i>unlimited storage</li>
+                <li><i class="fa-solid fa-check"></i>24/7 support</li>
+                <li><i class="fa-solid fa-check"></i>Custom Domain & analysis</li>
+            </ul>
+            <button>Choose Plan</button> 
+         </div> 
+    </div> 
+
+        <div class="footer">
+            <p>2025 pricing table|All rights reserved</p>
+        </div>
+    
+</body>
+</html>

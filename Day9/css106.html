@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width:50%;
+            margin:auto;
+            /*border:2px solid red;*/
+            color:white;
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+           
+            height:80vh;
+            text-align: center;
+            justify-content: center;
+            
+
+        }
+        .container div:nth-child(even)
+        {
+            background-color:rgb(31, 31, 240);
+        }
+        .container div:nth-child(odd)
+        {
+            background-color: black;
+        }
+        .container div{
+            border:2px solid black;
+            align-content:center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+            <div class="Box1">one</div>
+            <div class="Box2">two</div>
+            <div class="Box3">three</div>
+            <div class="Box4">four</div>
+            <div class="Box5">five</div>
+            <div class="Box6">six</div>
+           
+        
+    </div>
+</body>
+</html>
