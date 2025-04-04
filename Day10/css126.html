@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .grid-container { 
+            width:100%;
+            display: grid; 
+            grid-template-columns: repeat(3, 30%); 
+            grid-template-rows: auto;  
+            gap: 20px; 
+            padding: 20px; 
+            
+        }
+        .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-ite5,.grid-item6
+         { 
+            background-color: white; 
+            border: 1px solid #ddd;
+            border-radius: 8px; 
+            
+        }
+        img
+        {
+            width:100%;
+
+        }
+        .grid-item h3 { 
+            padding: 10px; 
+            margin: 0; 
+            text-align: center; 
+            background-color: #333; 
+            color: white; 
+        } 
+        h1{
+            text-align: center;
+        }
+        .grid-item1
+        {
+            grid-column: 1 / span 3;
+        }
+        .grid-item3
+        {
+            grid-row:2 / 4;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Bird's Gallery</h1>
+    <div class="grid-container"> 
+        
+        <div class="grid-item1"> 
+            <img src="1.jpg" alt="Placeholder Image"height="200px"> 
+            <h3>Photo 1</h3> 
+        </div> 
+        <div class="grid-item2"> 
+            <img src="2.jpg" alt="Placeholder Image" height="200px"> 
+            <h3>Photo 2</h3> 
+        </div> 
+        <div class="grid-item3"> 
+            <img src="3.jpg" alt="Placeholder Image"height="500px"> 
+            <h3>Photo 3</h3> 
+        </div> 
+        <div class="grid-item4"> 
+            <img src="4.jpg" alt="Placeholder Image"height="200px"> 
+            <h3>Photo 4</h3>
+        </div> 
+        <div class="grid-item5"> 
+            <img src=" 5.jpg " alt="Placeholder Image"height="200px" > 
+            <h3>Photo 5</h3> 
+        </div>
+    </div>
+    
+    
+</body>
+</html>

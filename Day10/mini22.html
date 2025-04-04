@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        header
+        {
+    
+            background-color: black;
+            color:white;
+            text-align: center;
+
+        }
+        .container
+        {
+            width:100%;
+            display:grid;
+            margin:auto;
+            grid-template-columns: 200px 900px;
+            grid-template-rows: 500px;
+            gap:10px;
+            
+        }
+        ul li{
+            list-style: none; 
+            margin:10px;
+            text-align: center;
+            
+        }
+        section{
+            height:85vh;
+            padding:20px;
+            background-color: black;
+            color:white;
+        
+        }
+        .content
+        {
+            margin-top:30px;
+            
+        }
+        .content-item
+        {
+            display:grid;
+            grid-template-columns: 300px 300px 300px;
+            gap:50px;
+            margin-top:50px;
+            text-align: center;
+            
+        }
+        .content-item1,.content-item2,.content-item3
+        {
+            background-color:lightgrey;
+            height:50px;
+            align-content: center;
+            border-radius:10px;
+        
+        }
+        nav{
+            line-height: 40px;
+           
+        }
+        footer
+        {
+            background-color: black;
+            color:white;
+            text-align: center;
+        
+            
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <div class="container">
+        <section>
+            <nav>
+                <ul>
+                 <li style="background-color: rgb(64, 61, 61);">Home</li>
+                 <li style="background-color:  rgb(64, 61, 61);">Reports</li>
+                <li style="background-color:  rgb(64, 61, 61);">Settings</li>
+                   
+                </ul>
+            </nav>
+        </section>
+        <div class="content">
+            <h2>Main content</h2><br>
+             <div class="content-item">
+            <div class="content-item1">
+                <p>Card 1</p>
+            </div>
+            <div class="content-item2">
+                <p>Card 2</p>
+            </div>
+            <div class="content-item3">
+                <p>Card 3</p></div>
+            </div>
+            
+        </div>
+    </div>
+        <footer>
+            <p>2025 Photo gallery|All rights reserved</p>
+        </footer>
+
+      
+     
+
+    
+</body>
+</html>
