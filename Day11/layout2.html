@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width:50%;
+            display:grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:0px;
+           /* border:2px solid red;*/
+          
+            margin:auto;
+        }
+        .container div{
+            border:2px solid black;
+            text-align: center;
+
+        }
+        .item2
+        {
+          grid-area:1/2/3/3;
+        }
+      
+        img{
+            width:100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="item item1"><img src="b2.jpg"alt="bird1" height="225px"></div>
+      <div class="item item2"><img src="b3.jpg"alt="bird1" height="460px"></div>
+      <div class="item item3"><img src="b4.jpg"alt="bird1" height="225px"></div>
+      <div class="item item4"><img src="b5.jpg"alt="bird1" height="225px"></div>
+      <div class="item item5"><img src="b6.jpg"alt="bird1" height="225px"></div>
+
+    </div>
+    
+</body>
+</html>

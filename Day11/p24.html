@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style> 
+    *
+    {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+        body { 
+            font-family: Arial, sans-serif; 
+            height: 200vh; 
+           
+        } 
+ 
+        .notify { 
+            position: fixed; 
+            top:50px;
+            right: 100px; 
+            width: 60px; 
+            height: 60px; 
+            background: aliceblue; 
+            color: rgb(244, 229, 10); 
+            border: none; 
+            border-radius: 50%; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            font-size: 1.5rem; 
+            cursor: pointer; 
+            transition: background-color 0.3s, transform 0.2s; 
+        } 
+        .badge
+         {
+             position: absolute; 
+             position:fixed;
+            top: 50px; 
+             right: 100px; 
+            background-color: red; 
+             color: white;
+             padding: 2px 5px; 
+             border-radius: 50%; 
+            font-size: 12px;
+        }
+
+ 
+        .notify:hover { 
+            background: #388e3c;
+            transform: scale(1.1); 
+        } 
+    </style> 
+</head> 
+<body> 
+    <button class="notify"><i class="fa-solid fa-bell"></i></button> 
+    <span class="badge">4</span>
+    
+</body> 
+</html> 

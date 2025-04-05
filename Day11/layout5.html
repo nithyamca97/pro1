@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        
+        .container
+        {
+            width:80%;
+            display:grid;
+            grid-template-rows: 200px;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap:0px;
+           /* border:2px solid red;*/
+           
+           
+        }
+        .container div,.container1 div{
+            border:2px solid black;
+            text-align: center;
+
+        }
+        .container1
+        {
+            width:80%;
+            display:grid;
+            grid-template-rows: 200px ;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap:0px;
+           /* border:2px solid red;*/
+            
+        }
+        
+       
+      .item1
+      {
+       width:230px;
+       
+      }
+      .item3
+      {
+        width:600px;
+      }
+      .item4
+      {
+        width:600px;
+      }
+        img{
+            width:100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="item item1"><img src="b2.jpg"alt="bird1" height="225px" width="400px"></div>
+    <div class="item item2"><img src="b3.jpg"alt="bird1" height="225px" width="400px"></div>
+      <div class="item item3"><img src="b4.jpg"alt="bird1" height="225px" width="400px"></div>
+      </div>
+      <div class="container1">
+      <div class="item item4"><img src="b5.jpg"alt="bird1" height="225px" width="400px"></div>
+      <div class="item item5"><img src="b6.jpg"alt="bird1" height="225px" width="400px"></div>
+      <div class="item item5"><img src="b2.jpg"alt="bird1" height="225px" width="400px"></div>
+    </div>
+      
+
+
+    </div>
+    
+</body>
+</html>
