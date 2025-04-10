@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .header
+     {
+        width: 100%;
+        height: 100vh;
+        background-image: url(3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        color: rgb(19, 19, 19); 
+    }
+    nav
+     {
+    display: flex;
+    width: 95%;
+    margin:auto;
+    padding: 20px;
+    align-items: center;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.212);
+    justify-content: space-between;
+   
+}
+li
+ {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+   
+}
+li{
+    transition: background-color 0.3s ease,transform 1s ease;
+}
+li:hover
+{
+
+    transform: scale(1.5);
+    background-color: aquamarine;
+
+}
+.col2 button{
+    background-color: #90ee90;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius: 25px;
+    font-size:16px;
+    
+}
+.content
+{
+    text-align: center;
+   align-items: center;
+    color:rgb(19, 18, 18);
+    background-color: rgba(240, 248, 255, 0.37);
+    position:absolute;
+    left:450px;
+    top:200px;
+    line-height: 40px;
+}
+
+.content button
+{
+    background-color: transparent;
+    border:2px solid #a8ffc9;
+    padding:10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+
+}
+.content button:hover{
+    background-color: #a8ffc9;
+    color:#000;
+}
+h1
+{
+    transition: background-color 0.3s ease,transform 1s linear;
+   
+}
+h1:hover
+{
+    background-color: #90ee90;
+    transform: translateX(20px) rotate(360deg) scale(2);
+}
+.gallery
+{
+    height:50vh;
+    width:80%;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.gallery
+{
+    width:100%;
+    filter: grayscale(100%) brightness(80%); 
+    transition: filter 0.3s ease;
+}
+.gallery:hover { 
+    filter: none; 
+} 
+.img3:hover
+{
+    filter:blur(20px)
+}
+.content { 
+    animation: slide-in 0.5s ease forwards; 
+    transform-origin: top center; 
+} 
+ 
+@keyframes slide-in { 
+    from { transform: translateY(-100%) scale(0.8); opacity: 0; } 
+    to { transform: translateY(0) scale(1); opacity: 1; } 
+} 
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+           <h1>Simone</h1>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WHAT I DO</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CLIENT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    
+        <div class="content">
+        <h2>Create Your Own website</h2>
+        <p>Based in los angeles,california</p>
+        <button>Join For Free</button>
+    </div>
+</div>
+<h1>Our Gallery</h1>
+<div class="gallery">
+   
+    <div class="img1">
+        <img src="6.jpg" alt="first"height="200px">
+    </div>
+    <div class="img2">
+        <img src="7.avif" alt="second"height="200px">
+    </div>
+    <div class="img3">
+        <img src="8.jpg" alt="third"height="200px">
+    </div>
+
+</div>
+    
+</body>
+</html>

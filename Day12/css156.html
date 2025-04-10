@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            height:200px;
+            width:200px;
+            border:2px solid gray;
+            margin-top:30px;
+            margin-left:500px;
+           
+        }
+        div 
+        {
+                 transform: perspective(1500px) rotateY(15deg);
+                 border-radius: 1rem;
+                 box-shadow: 10px 10px lightblue;
+                transition: transform 1s ease 0s;
+                background-color: rgba(0, 0, 0, 0.292);
+        }
+
+        div:hover 
+        {
+            transform:translate3d(0px, -16px, 0px)rotateX(51deg)rotateZ(43deg);
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>

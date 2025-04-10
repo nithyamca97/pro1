@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            display:flex;
+            color:white;
+            justify-content: center;
+            height:300px;
+           
+            border:1px solid black;
+            background-color: skyblue;
+           
+        }
+       .button
+       {
+        align-content: center;
+        
+    
+       }
+        #btn1,#btn2,#btn3,#btn4
+        {
+            width:150px;
+            height:50px;
+            color:white;
+            border-radius: 10px;
+            padding:15px 15px;
+        }
+        #btn1{
+            background-color: blue;
+            transition: transform 0.3s ease;
+        }
+        #btn2
+        {
+           background-color: seagreen; 
+           transition: transform 1s ease-in;
+        }
+        #btn3
+        {
+            background-color: red;
+            transition:background-color 0.3s ease,
+        }
+        #btn4
+        {
+            background-color: orange;
+            transition:transform 1s linear;
+        }
+        #btn1:hover
+        {
+            transform: translateY(-10px) scale(1.05);
+        }
+        #btn2:hover
+        {
+            transform: translateX(10px) translateY(10px) scale(1);
+        }
+        #btn4:hover
+        {
+            transform:scaleY(2);
+        }
+        #btn3:hover
+        {
+            background-color: orangered;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button">
+      
+            <button id="btn1">Primary Button</button>
+    
+        
+            <button id="btn2">Secondary Button</button>
+        
+        
+            <button id="btn3">Danger Button</button>
+    
+            <button id="btn4">Warning Button</button>
+        </div>
+    </div>
+
+</body>
+</html>
