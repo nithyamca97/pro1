@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    color: white; 
+}
+
+.heading 
+{
+    background-color: black;
+    color:white;
+}
+   
+nav {
+    display: flex;
+    width: 95%;
+    margin:auto;
+    padding: 20px;
+    align-items: center;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.212);
+    justify-content: space-between;
+   
+}
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+a:hover {
+    background-color: rgb(46, 139, 87);
+    border-radius: 2px;
+    color: white;
+}
+.col2 button{
+    background-color: #90ee90;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius: 25px;
+    font-size:16px;
+    
+}
+.content
+{
+    text-align: center;
+   align-items: center;
+    color:rgb(19, 18, 18);
+    background-color: rgba(240, 248, 255, 0.37);
+    position:absolute;
+    left:450px;
+    top:200px;
+    line-height: 40px;
+}
+.content button
+{
+    background-color: transparent;
+    border:2px solid #a8ffc9;
+    padding:10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+
+}
+.content button:hover{
+    background-color: #a8ffc9;
+    color:#000;
+}
+.main
+{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    margin:auto;
+    background-color: black;
+    color:white;
+    gap:20px;
+}
+h1
+{
+    text-align: center;
+   
+}
+.col1,.col2
+{
+    margin-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    
+} 
+.main1
+{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(4,3fr);
+    grid-template-rows: auto;
+    margin:auto;
+    background-color: black;
+    color:white;
+    gap:20px;
+   
+   
+}
+.item1,.item2,.item3,.item4
+{
+    margin-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:50px;
+    padding: 20px;
+    text-align: center;
+} 
+.main2
+{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,2fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    margin:auto;
+    background-color:rgba(0, 0, 0, 0.74);
+    color:white;
+   
+   
+}
+.header1,.first,.second,.three,.four,.five,.six
+{
+    margin-top:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom:10px;
+    padding: 20px; 
+}
+.header1
+{
+    grid-column: 1/3;
+   color:white;
+}
+.main3
+{
+    display:grid;
+    grid-template-columns:repeat(2,2fr);
+    grid-template-rows: 1fr 50px 1fr 1fr 1fr 100px;
+    background-color: rgba(0, 0, 0, 0.838);
+    color:white;
+    
+}
+.cv{
+    grid-column: 1/3;
+}
+
+.header2  
+{
+    grid-column: 1/3;
+    
+}
+.head1,.head2{
+    height:20px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 0;
+}
+.box1,.box2,.box3,.box4,.box5,.box6
+{
+    
+    background-color: black;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom:10px;
+    padding: 20px; 
+    gap:20px;
+    
+}
+.cv{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    
+    
+}
+#btn
+{
+font-size: 21px;
+border-color:grey;
+border-radius: 20px;
+
+}
+.links
+{
+display:flex;
+flex-direction: row;
+color:white;
+justify-content: center;
+
+}
+.links a{
+    color: white;
+}
+.works
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /*border:2px solid red;*/
+    height:150vh;
+    width:80%;
+    margin-top:20px;
+    gap:20px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7
+{
+    justify-content: center;
+   /* border:2px solid black;*/
+   
+}
+.b2{
+    grid-area: 1/2/3/2;
+}
+.b4{
+    grid-area:2/1/4/1;
+}
+.works img{
+    width:100%;
+    border-radius: 15px;
+   
+
+}
+.works img:hover
+{
+    
+  opacity: 0.3;
+}
+
+.section3
+{
+  
+    background-color:rgba(0, 0, 0, 0.74);
+     color:white;
+}
+.section3 h1{
+    margin-bottom: 30px;
+}
+.contact
+{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100px auto;
+    color:white;
+    background-color: black;
+}
+.header3 
+{
+    grid-column: 1/3;
+    
+}
+.address,.note
+{
+    width:80%;
+    margin-top:20px;
+    gap:20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+
+}
+.footer
+{
+    
+    background-color:rgba(0, 0, 0, 0.74);
+    height:50px;
+    color:white;
+    align-content: center;
+}
+.note button{
+    background-color: #90ee90;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius: 25px;
+    font-size:16px;
+    
+}
+#btn
+{
+    background-color:transparent;
+    color:white;
+    padding:15px 30px;
+    border:2px solid aliceblue;
+    border-radius: 25px;
+    font-size:16px;
+}
+.main2 i
+{
+    border:2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    color:seagreen;
+    padding:10px 10px;
+}
+.main{
+    line-height: 1.8;
+}
+.col2{
+    line-height: 2.5;
+}
+.main3
+{
+    line-height: 1.8;
+}
+.main3 h2+p{
+    color:seagreen;
+    font-weight:bold;
+}
+.fixed-settings-icon 
+{
+        position: fixed;  
+        top: 300px;       
+        right: 10px;     
+        z-index: 1000;  
+        background-color: rgba(255, 255, 255, 0.333);
+        padding:10px 10px;
+        
+    }
+    .fixed-settings-icon i
+     {
+        font-size: 2em;  
+        color:lightgrey; 
+    }
+    .main2
+    {
+        line-height: 1.5;
+    }
+   .address i
+   {
+    color:seagreen;
+   }
+   .address p
+   {
+    line-height: 1.8;;
+   }
+
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+           <h1>Simone</h1>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WHAT I DO</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CLIENT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                
+            </ul>
+        </nav>
+    
+        <div class="content">
+        <h2>Welcome</h2>
+        <h1>I'm a freelancer</h1>
+        <p>based in los angeles,california</p>
+        <button>Hire Me</button>
+    </div>
+</div>
+<div class="heading">
+
+    <h1>Know Me More</h1>
+</div>
+<div class="main">
+    <div class="col1">
+        <h1>I'm <span style="color: seagreen;" > Simone Olivia,</span> a Web Developer</h1>
+        <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        <br>
+        <p>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+    </div>
+    <div class="col2">
+        <p>Name:Simone Olivia</p>
+        <hr>
+        <p>Email:<span style="color: seagreen;" >chat@simone.com</span></p>
+        <hr>
+        <p>Age:28</p>
+        <hr>
+        <p>From:Los Angeles, California</p>
+        <br>
+        <button>Download CV</button>
+    </div>
+    </div>
+    <div class="main1">
+        <div class="item1">
+         <h1>10+</h1>
+        <p>Years Experience</p>
+    </div>
+    <div class="item2">
+        <h1>250+</h1>
+       <p>Happy clients</p>
+   </div>
+   
+    <div class="item3">
+    <h1>650+</h1>
+   <p>Projects Done</p>
+</div>
+<div class="item4">
+    <h1> 38</h1>
+   <p>Get Awards</p>
+</div>
+</div>
+
+<div class="main2">
+    <div class="header1">
+        <h1>What I Do ?</h1>
+    </div>
+   
+    <div class="first">
+    <h2><i class="fa-solid fa-palette"></i>Graphic Design</h2>
+    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+    </div>
+    <div class="second">
+        <h2><i class="fa-solid fa-desktop"></i>web design</h2>
+        <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="three">
+            <h2><i class="fa-solid fa-pen-ruler"></i>UI/UX Design</h2>
+            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+            </div>
+         <div class="four">
+                <h2><i class="fa-solid fa-paintbrush"></i>App design & Develop</h2>
+                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+            </div>
+        
+        <div class="five">
+                    <h2><i class="fa-solid fa-chart-simple"></i>Business Analysis</h2>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+            </div>
+        <div class="six">
+                        <h2><i class="fa-solid fa-bullhorn"></i>SEO Marketing</h2>
+                        <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+</div>
+</div>
+<div class="main3">
+    <div class="header2">
+        <h1>Resume</h1>
+    </div>
+    <div class="head1"><h2>My Education</h2></div>
+    <div class="head2"><h2>My Experience</h2></div>
+
+    <div class="box1">
+    <p>2000 - 2004</p>
+    <h2>Computer Science</h2>
+    <p>International University</p>
+    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+    </div>
+    
+    <div class="box2">
+       
+       <p> 2012 - 2013</p>
+        <h2>Jr.UI/UX designer</h2>
+        <p>Theme forest</p>
+        <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="box3">
+           <p> 2005 - 2008</p>
+            <h2>Bachelor Degree</h2>
+            <p>University of california</p>
+            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+            </div>
+            <div class="box4">
+                <p> 2014 - 2016</p>
+                 <h2>Jr.Product Engineer</h2>
+                 <p>Dribble</p>
+                 <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                 </div>
+                              
+             <div class="box5">
+                 <p> 2009 - 2012</p>
+                <h2>Master Degree</h2>
+                 <p>Harvard University</p>
+                 <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+             </div>
+                <div class="box6">
+                     <p> 2017 - 2019</p>
+                     <h2>Product Designer</h2>
+                     <p>Adobe</p>
+                     <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                     </div>
+                     <div class="cv">
+                     <button id="btn">Download CV<i class="fa-solid fa-download"></i></button>
+             </div>
+            </div>
+            <div class="section3">
+            <h1>MY Works</h1>
+            <div class="links">
+            <ul>
+                   <li><a href="#">All</a></li> 
+                   <li> <a href="#">Design</a></li>
+                   <li><a href="#">Brand</a></li> 
+                   <li><a href="#">Photos</a></li> 
+
+                </ul>
+            </div>
+            <div class="works">
+                <div class="b1"><img src="b1.jpg" alt="project1"></div>
+                <div class="b2"><img src="b2.jpg" alt="project2"></div>
+                <div class="b3"><img src="b3.jpg" alt="project3"></div>
+                <div class="b4"><img src="b4.jpg" alt="project4" height="500px"></div>
+                <div class="b5"><img src="b5.jpg" alt="project5"></div>
+                <div class="b6"><img src="b6.jpg" alt="project6" height="400px"></div>
+                <div class="b7"><img src="b7.jpg" alt="project7"></div>
+                
+            </div>
+        </div>
+        
+        <div class="contact">
+            <div class="header3">
+                <h1>Get In Touch</h1>
+            </div>
+           
+         <div class="address">
+           <h2>Address</h2> 
+            <p>4th Floor, Plot No.22,</p>
+            <p>145 Murphy Canyon Rd.</p>
+            <p>San Diego CA 2028</p>
+
+            <p><i class="fa-solid fa-phone"></i> (060) 444 434 444</p>
+
+            <p><i class="fa-solid fa-building"></i> (060) 555 545 555</p>
+
+            <p><i class="fa-solid fa-envelope"></i> chat@simone.com</p>
+            </div>
+            
+            
+         <div class="note">
+                <h2>SEND US A NOTE</h2><br>
+               <input type="text" id="name" placeholder="NAME">
+               <input type="Email" id="email" placeholder="E-MAIL"><br><br>
+               <textarea rows="5" cols="50" placeholder="Tell us more"></textarea><br><br>
+               <button>SEND MESSAGE</button>
+                            
+            </div>
+            </div>
+        <div class="footer">
+            <p>Copyright © 2022 Simone. All Rights Reserved.</p>
+        </div>
+        <div class="fixed-settings-icon">
+            <i class="fas fa-cog"></i>  
+        </div>
+        
+
+
+</div>
+
+    
+</body>
+</html>
