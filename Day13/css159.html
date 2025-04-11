@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: block; /* Vertical stacking */
+  padding: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .nav {
+    display: flex; /* Horizontal arrangement */
+    flex-wrap: wrap; /* Allow links to wrap if needed */
+  }
+
+  .nav li {
+    display: inline-block; /* Horizontal stacking */
+    padding: 10px 20px; /* Adjust padding for horizontal view */
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+
+        </ul>
+    </div>
+    
+</body>
+</html>

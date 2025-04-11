@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width:100%;
+            margin:auto;
+            border:2px solid red;
+        }
+        .image
+        {
+            height:200px;
+        }
+        img
+        {
+            height:100%;
+            width:100%;
+        }
+        .row
+        {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        .col
+        {
+            width:28%;
+        }
+        @media (min-width: 320px) { 
+            .col{
+                width: 100%;
+                text-align: center;
+            }
+            .container
+            {
+                width:100%;
+            }
+
+      p
+      {
+        padding:5px;
+        color:red;
+      }
+      h1
+      {
+        color:green;
+      }
+      .row
+        {
+            justify-content:space-evenly;
+        }
+    }
+    @media (min-width: 680px) {
+        .col
+        {
+            width:48%
+        }
+        .row
+        {
+            justify-content:space-evenly;
+        }
+
+    }
+    
+     @media (min-width: 1024px) { 
+     
+        .col
+        {
+            width:24%;
+        }
+        .row
+        {
+            justify-content:space-evenly;
+        }
+    } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 1</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 2</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 3</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 4</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 1</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 5</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 1</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+            <div class="col">
+                <div clss="cart">
+                    <div class="image">
+                        <img src="1.jpg" alt="photo1">
+                    </div>
+                    <h1>Product 1</h1>
+                    <p>Price:18.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+               

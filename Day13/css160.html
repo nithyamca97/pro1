@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        @media (max-width: 600px) { 
+  .image{ 
+        width:100%;
+  } 
+} 
+ 
+/* Tablet styles */ 
+@media (min-width: 601px) and (max-width: 1024px) { 
+  .image{ 
+    width:50%;
+  } 
+} 
+ 
+/* Desktop styles */ 
+@media (min-width: 1025px) { 
+  .image{ 
+    width:25%;
+  } 
+}
+
+    </style>
+</head>
+<body>
+    <div class="image">
+   <img src="2.jpg" alt="flower" width="100%" >
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        @media (max-width: 767px) {
+        form
+        { 
+            display:flex;
+            flex-direction: column;
+        } 
+    }
+    
+@media (min-width: 768px) and (max-width: 1023px) { 
+    form
+        { 
+            display:flex;
+            
+        } 
+
+} 
+ 
+@media (min-width: 1024px) { 
+    form
+        { 
+            display:flex;
+            
+        } 
+
+  } 
+    </style>
+</head>
+<body>
+    <h1>Log-In Form</h1><br><br>
+    <form>
+        <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+    </form>
+    
+</body>
+</html>
